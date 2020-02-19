@@ -1,0 +1,9 @@
+nombre = "Camore"
+print (nombre)
+print (type(nombre))
+Años de la empresa= 3
+print (años de la empresa)
+print (type(años de la empresa))
+dinero de la empresa= 9283374748432993.23
+print (dinero de la empresa)
+print (type(dinero de la empresa))
