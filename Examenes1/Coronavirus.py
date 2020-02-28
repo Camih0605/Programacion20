@@ -19,17 +19,18 @@ print(MENSAJE_BIENVENIDO)
 _nombrePais = input (PREGUNTA_PAIS)
 if (_nombrePais in LUGAR_PAISES) :
     print(MENSAJE_OBSERVACION)
-_temperaturaPacientes = int(input(PREGUNTA_TEMPERATURA))
-if ((_temperaturaPacientes>36) and (_temperaturaPacientes<=38.4)) :
-    print(MENSAJE_SALUDABLE)
-elif((_temperaturaPacientes<36)) :
-    print(MENSAJE_HIPOTERMIA)
-elif((_temperaturaPacientes>38.5) and (_temperaturaPacientes<40)) :
-    print(MENSAJE_ALERTA)
 else:
-    print(MENSAJE_PELIGRO)
+    _temperaturaPacientes = float(input(PREGUNTA_TEMPERATURA))
+    if ((_temperaturaPacientes>36) and (_temperaturaPacientes<=38.4)) :
+        print(MENSAJE_SALUDABLE)
+    elif((_temperaturaPacientes<36)) :
+        print(MENSAJE_HIPOTERMIA)
+    elif((_temperaturaPacientes >= 38.5) and (_temperaturaPacientes<40)) :
+        print(MENSAJE_ALERTA)
+    else:
+        print(MENSAJE_PELIGRO)
 
-print(MENSAJE_DESPEDIDA)
+    print(MENSAJE_DESPEDIDA)
 
 
 
