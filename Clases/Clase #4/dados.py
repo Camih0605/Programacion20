@@ -12,3 +12,10 @@ while(SUMA != NUMERO_DESEADO ):
     DADO2 = random.randint(1,6)
     SUMA = DADO1 + DADO2
 print (SUMA)
+#SOLUCION VALIDA
+#DADO1= RANDOM.RANDINT(1,6)
+#DADO2= RANDOM.RANDIN(1,6)
+#SUMA= DADO1+DADO2
+#WHILE(SUMA!=12)
+#PRINT( SUMA )
+#dado1= random.randint(1,6)
