@@ -1,10 +1,10 @@
 def  hablar ( mensaje ):
     imprimir ( mensaje )
-    volver  "exitoso"
+    return "exitoso"
 
 def  validar_clave ( CLAVE_REAL , _claveIngresada ):
     if ( CLAVE_REAL  ==  _claveIngresada ):
-        imprimir ( "ingreso exitoso" )
+        print ( "ingreso exitoso" )
         ESTADO  =  "Clave valida"
     más :
         print ( "clave incorrecta" )
