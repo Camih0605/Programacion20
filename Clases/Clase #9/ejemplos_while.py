@@ -20,10 +20,10 @@ def  mostrar_lista ( lista ):
 def  mostrar_dos_listas ( lista_1 , lista_2 ):
     if ( len ( lista_1 ) ==  len ( lista_2 )):
         print ( "elemento" , "precio" )
-        para  i  en  rango ( len ( lista_1 )):
+        for  i  in  range ( len ( lista_1 )):
             print ( lista_1 [ i ], "$" , lista_2 [ i ])
 
-    más :
+    else :
         print ( "no se puede mostrar uno a uno" )
 
 def  bienvenida (): print ( "Bienvenido al código" )
