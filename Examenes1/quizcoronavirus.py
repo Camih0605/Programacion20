@@ -35,6 +35,7 @@ def llenarLista ():
     return pesoPaciente
 llenarLista() 
 
+print (pesoPaciente , presiones)
 
 
 #encontrar la presion más grande de la lista
