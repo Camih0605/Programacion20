@@ -1,5 +1,5 @@
 import pandas as p
-diccionario =p.read_csv("barrios.csv",encoding='UTF-8', header = 0,delimiter=';').to_dict
+diccionario =p.read_csv("barrios.csv",encoding='UTF-8', header = 0,delimiter=';').to_dict()
 print(diccionario)
 print(diccionario.keys())
 print(diccionario["Barrio"])
